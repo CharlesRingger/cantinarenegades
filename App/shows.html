@@ -1,0 +1,18 @@
+<h2>Upcoming Shows</h2>
+
+<div ng-repeat="show in shows" class="row">
+
+    <div class="col-md-8">
+        <h3>{{show.Location}}</h3>
+        <h4>{{show.City}}, {{show.State}}</h4>
+        <p>
+           {{show.Date}} <br/>
+            {{show.Time}} <br/>
+            <a href="{{show.LocationURL}}" target="_blank">{{show.LocationURL}}</a>
+        </p>
+
+    </div>
+    <div class="col-md-4">
+        <iframe src="{{show.MapEmbedSrc}}" width="400" height="300" frameborder="0" style="border:0"></iframe>
+    </div>
+</div>
