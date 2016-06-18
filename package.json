@@ -1,0 +1,23 @@
+{
+  "name": "cantinarenegades",
+  "version": "1.0.0",
+  "description": "CantinaRenegades.com",
+  "main": "scripts/app.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesRingger/cantinarenegades.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlesRingger/cantinarenegades/issues"
+  },
+  "homepage": "https://github.com/CharlesRingger/cantinarenegades#readme",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
